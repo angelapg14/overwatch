@@ -1,0 +1,37 @@
+.padding {
+    padding-bottom: 10px
+}
+
+.embed-responsive-item {
+    margin: 5px
+}
+
+.fab {
+    color: red;
+    font-size: 50px;
+    margin: 100px
+}
+
+.fa-instagram {
+    color: #231F20
+}
+
+.fa-twitter {
+    color: #38A1F3
+}
+
+.fa-facebook-f {
+    color: #4267b2
+}
+
+.fa-google-plus-g {
+    color: #DB4437
+}
+
+.fa-pinterest-p {
+    color: #BD081C
+}
+
+.fa-youtube {
+    color: #ED3833
+}
