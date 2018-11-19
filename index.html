@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="css.css" type="text/css" />
 
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
   <title>My Overwatch website</title>
 </head>
 
@@ -22,8 +25,8 @@
 
   <!-- navbar -->
 
-  <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top padding">
-    <a class="navbar-brand" href="#"><img src="" width="300" height="100" alt="logo"></a>
+  <nav class="navbar navbar-expand-md bg-light sticky-top padding">
+    <a class="navbar-brand" href="#"><img src="img/overwatchlogo.png" height="100" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,31 +41,46 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Videos</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Videos</a>
+        </li>
       </ul>
     </div>
   </nav>
 
   <!-- jumbo -->
 
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <img class="img-fluid" src="img/overchars/Overwatch-Game-Png-Images-Transparent-Background.png" alt="main">
+  <div id="demo" class="carousel slide bg-light" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="container padding">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/overchars/Overwatch-Game-Png-Images-Transparent-Background.png" alt="overwatchlogo" width="1100" height="500">
+        </div>
       </div>
     </div>
   </div>
+
   <!-- characters -->
 
-  <div class="characters container-fluid padding text-center text-uppercase">
+  <div class="characters container-fluid bg-light padding text-center text-uppercase">
     <div class="row">
       <div class="col">
         <h1>characters</h1>
-        <hr>
       </div>
     </div>
   </div>
 
-  <div class="container padding">
+  <div class="container-fluid bg-dark padding">
     <div class="row d-flex justify-content-center">
       <div class="card" style="width:150px">
         <img class="card-img-top" src="img/overchars/hero-select-portrait.png" alt="Card image" style="width:100%">
@@ -243,7 +261,7 @@
 
 
   <!-- potg videos -->
-  <div class="characters container-fluid padding text-center text-uppercase">
+  <div class="potg container-fluid bg-dark padding text-center text-uppercase">
     <div class="row">
       <div class="col">
         <h1>play of the game</h1>
@@ -253,7 +271,7 @@
   </div>
 
   <!-- 16:9 aspect ratio -->
-  <div class="container padding">
+  <div class="container bg-light padding">
     <div class="row d-flex justify-content-center">
       <iframe class="embed-responsive-item" height="500" width="500" src="https://www.youtube.com/embed/RqngZuR87N4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <iframe class="embed-responsive-item" height="500" width="500" src="https://www.youtube.com/embed/RqngZuR87N4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -261,7 +279,7 @@
       <iframe class="embed-responsive-item" height="500" width="500" src="https://www.youtube.com/embed/RqngZuR87N4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div class="characters container-fluid padding text-center text-uppercase">
+    <div class="container-fluid padding text-center text-uppercase">
       <div class="row">
         <div class="col">
           <a href="">more potg videos</a>
@@ -275,7 +293,7 @@
   <!-- Footer -->
   <footer>
 
-    <div class="container-fluid padding">
+    <div class="social container-fluid bg-dark padding">
       <div class="row text-center padding">
         <div class="col-12">
           <h1>social</h1>

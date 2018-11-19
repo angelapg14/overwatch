@@ -1,3 +1,11 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #405275;
+    font-family: 'Roboto', sans-serif;
+}
+
 .padding {
     padding-bottom: 10px
 }
@@ -35,3 +43,31 @@
 .fa-youtube {
     color: #ED3833
 }
+
+.navbar a {
+    font-size: 1.2em;
+    color: #f99e1a;
+}
+
+.navbar li {
+    padding: 25px
+}
+
+.characters {
+    color: #218ffe;
+}
+
+.potg {
+    color: #218ffe;
+}
+
+.social {
+    color: #218ffe;
+    text-transform: uppercase
+}
+
+.card {
+    margin: 5px
+}
+
+
