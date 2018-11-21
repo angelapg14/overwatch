@@ -1,72 +1,71 @@
-html,
-body {
-    height: 100%;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-}
+ /* body */
 
-.padding {
-    padding-bottom: 10px
-}
+ html,
+ body {
+     font-family: 'Roboto', sans-serif;
+ }
 
-.embed-responsive-item {
-    margin: 5px
-}
+ /* general */
 
-.fab {
-    color: red;
-    font-size: 50px;
-    margin: 100px
-}
+ .padding {
+     padding-bottom: 0.5em
+ }
 
-.fa-instagram {
-    color: #231F20
-}
+ /* navbar */
 
-.fa-twitter {
-    color: #38A1F3
-}
+ .navbar a {
+     font-size: 1.2em;
+     color: #f99e1a
+ }
 
-.fa-facebook-f {
-    color: #4267b2
-}
+ .navbar a:hover {
+     color: #000000
+ }
 
-.fa-google-plus-g {
-    color: #DB4437
-}
+ .navbar li {
+     margin-right: 2em;
+ }
 
-.fa-pinterest-p {
-    color: #BD081C
-}
+ /* carousel */
 
-.fa-youtube {
-    color: #ED3833
-}
+ .carousel-inner img {
+     height: 100%;
+     width: 100%;
+ }
 
-.navbar a {
-    font-size: 1.2em;
-    color: #f99e1a;
-}
+ /* characters */
 
-.navbar li {
-    padding: 25px
-}
+ /* potg */
 
-.characters {
-    color: #218ffe;
-}
+ /* social */
 
-.potg {
-    color: #218ffe;
-}
+ .fab {
+     color: red;
+     font-size: 50px;
+     margin: 100px
+ }
 
-.social {
-    color: #218ffe;
-    text-transform: uppercase
-}
+ .fa-instagram {
+     color: #231F20
+ }
 
-.card {
-    margin: 5px
-}
+ .fa-twitter {
+     color: #38A1F3
+ }
 
+ .fa-facebook-f {
+     color: #4267b2
+ }
 
+ .fa-google-plus-g {
+     color: #DB4437
+ }
+
+ .fa-pinterest-p {
+     color: #BD081C
+ }
+
+ .fa-youtube {
+     color: #ED3833
+ }
+ 
