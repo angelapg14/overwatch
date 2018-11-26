@@ -2,13 +2,16 @@
 
  html,
  body {
+  height: 100%;
+  width: 100%;
   font-family: 'Roboto', sans-serif;
+  background-image: url("img/overmainbg.jpg");
  }
 
  /* general */
 
  .padding {
-  padding-bottom: 0.5em
+  padding-bottom: 2em
  }
 
  /* navbar */
@@ -37,7 +40,11 @@
 
  .carbon {
   background-image: url("img/carbon.jpg");
-  color: #218ffe
+  color: 	#218ffe
+ }
+ 
+ .card {
+  margin: 0.3em
  }
  
 .card-body {
@@ -54,13 +61,17 @@
 
 
  /* potg */
+ .embed-responsive-item {
+  margin: 0.5em
+ }
 
  /* social */
 
  .fab {
+
   color: red;
-  font-size: 50px;
-  margin: 100px
+  font-size: 3em;
+  margin: 1em
  }
 
  .fa-instagram {
