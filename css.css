@@ -40,7 +40,9 @@
 
  .carbon {
   background-image: url("img/carbon.jpg");
-  color: 	#218ffe
+  color: 	#218ffe;
+  text-transform: uppercase;
+  text-align: center
  }
  
  .card {
@@ -97,4 +99,14 @@
  .fa-youtube {
   color: #ED3833
  }
+ 
+ /*
+ 
+.col- (extra small devices - screen width less than 576px)
+.col-sm- (small devices - screen width equal to or greater than 576px)
+.col-md- (medium devices - screen width equal to or greater than 768px)
+.col-lg- (large devices - screen width equal to or greater than 992px)
+.col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+
+*/
  
