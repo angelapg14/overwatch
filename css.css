@@ -5,7 +5,8 @@
   height: 100%;
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  background-image: url("img/overmainbg.jpg");
+  /* background-image: url("img/overmainbg.jpg");*/
+  box-sizing: border-box;
  }
 
  /* general */
@@ -40,29 +41,45 @@
 
  .carbon {
   background-image: url("img/carbon.jpg");
-  color: 	#218ffe;
+  color: #218ffe;
   text-transform: uppercase;
   text-align: center
  }
- 
- .card {
-  margin: 0.3em
+
+ .card-img-overlay {
+  position: absolute;
+  top: auto;
+  opacity: 0.8;
+  color: white;
  }
- 
-.card-body {
- background-color: #405275;
- color: white;
- height: 1em;
-}
 
-.card-title {
- font-size: 1em;
-  text-align: center;
-  text-transform: uppercase;
-}
+ .card-img-overlay p {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  font-size: 1.2em
+ }
 
+ .card {
+  border-style: solid;
+  border-color: white;
+  border-width: 1.5px;
+ }
+
+ .zoom {
+  transition: transform .1s;
+ }
+
+ .zoom:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+ }
 
  /* potg */
+
  .embed-responsive-item {
   margin: 0.5em
  }
@@ -99,7 +116,20 @@
  .fa-youtube {
   color: #ED3833
  }
- 
+
+
+ @media screen and (max-width: 320px) {
+  .carbon {
+   font-size: 2em;
+  }
+  .btn {
+   width: 100%;
+  }
+ }
+
+
+
+
  /*
  
 .col- (extra small devices - screen width less than 576px)
