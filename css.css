@@ -20,11 +20,17 @@
 
  .navbar a {
   font-size: 1.2em;
-  color: #f99e1a
+  color: #f99e1a;
+  transition: transform .1s;
  }
 
  .navbar a:hover {
-  color: #218ffe
+  color: #218ffe;
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
  }
 
  .navbar li {
@@ -41,15 +47,27 @@
  /* characters */
 
  .carbon {
-  background-image: url("img/carbon.jpg");
-  color: #218ffe;
+  color: #f99e1a;
   text-align: center;
-  text-transform:uppercase;
+  text-transform: uppercase;
+ }
+ 
+ .carbonbg {
+  background-image: url("img/carbon.jpg");
+ } 
+ 
+ .charstitle h1{
+  text-transform: uppercase;
+  color: #218ffe;
+ }
+ 
+ .charstitle h3 {
+ color: #000000; 
  }
  
  .titles {
   color: #218ffe;
-  font-weight:bold;
+  font-weight: bold;
  }
 
  .card {
@@ -108,8 +126,8 @@
  .fab {
 
   color: red;
-  font-size: 3em;
-  margin: 1em
+  font-size: 2em;
+  margin: 20px
  }
 
  .fa-instagram {
@@ -135,7 +153,18 @@
  .fa-youtube {
   color: #ED3833
  }
-
+ 
+ .end {
+   color: 	#f99e1a
+ }
+ 
+ .end h4{
+  color: 	#218ffe
+ }
+ 
+ .end hr{
+  background-color: white
+ }
 
  @media screen and (max-width: 576px) {
   .carbon {
