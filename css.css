@@ -36,7 +36,6 @@
  .navbar li {
   margin-right: 1.5em;
   text-align: center;
-  width: 100%;
  }
 
  /* carousel */
@@ -121,6 +120,9 @@
 
  /* potg */
 
+ .embed-responsive {
+  margin-bottom: 25px
+ }
 
  /* social */
 
@@ -181,20 +183,38 @@
    width: 30%
   }
   .card {
-   width: 100px
+   width: 20%
   }
   .name {
-   font-size: 1em
+   font-size: 100%
   }
   .charstitle h1,
   h3 {
    font-size: 150%;
   }
   .fas {
-   font-size: 0.6em
+   font-size: 50%
   }
   .embed-responsive {
-   margin-bottom: 10px
+   margin-bottom: 25px
+  }
+ }
+
+ @media screen and (max-width: 768px) {
+  .card {
+   width: 15%
+  }
+  .name {
+   font-size: 140%
+  }
+  .embed-responsive {
+   margin-bottom: 25px
+  }
+ }
+
+ @media screen and (max-width: 992px) {
+  .embed-responsive {
+   margin-bottom: 25px
   }
  }
 
