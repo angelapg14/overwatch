@@ -19,7 +19,7 @@
  /* navbar */
 
  .navbar a {
-  font-size: 1.2em;
+  font-size: 1em;
   color: #f99e1a;
   transition: transform .1s;
  }
@@ -34,7 +34,9 @@
  }
 
  .navbar li {
-  margin-right: 2em;
+  margin-right: 1.5em;
+  text-align: center;
+  width: 100%;
  }
 
  /* carousel */
@@ -58,11 +60,13 @@
 
  .charstitle h1 {
   text-transform: uppercase;
+  text-align: center;
   color: #218ffe;
  }
 
  .charstitle h3 {
   color: #000000;
+  text-align: center
  }
 
  .titles {
@@ -117,9 +121,6 @@
 
  /* potg */
 
- .embed-responsive-item {
-  margin: 0.5em
- }
 
  /* social */
 
@@ -174,7 +175,7 @@
 
  @media screen and (max-width: 576px) {
   .carbon {
-   font-size: 2em
+   font-size: 1.5em;
   }
   .btn {
    width: 30%
@@ -185,8 +186,15 @@
   .name {
    font-size: 1em
   }
+  .charstitle h1,
+  h3 {
+   font-size: 150%;
+  }
   .fas {
    font-size: 0.6em
+  }
+  .embed-responsive {
+   margin-bottom: 10px
   }
  }
 
