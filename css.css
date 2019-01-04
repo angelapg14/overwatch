@@ -207,6 +207,9 @@
   .card {
    width: 20%
   }
+    .fab {
+   font-size: 2em
+  }
  }
 
  /*
