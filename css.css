@@ -95,11 +95,11 @@
   position: absolute;
   left: 0
  }
- 
+
  .fas {
   font-size: 120%;
  }
- 
+
  .name {
   color: white;
   position: absolute;
@@ -234,7 +234,16 @@
   }
  }
 
- /*
+ @media screen and (max-width: 400px) {
+  .name {
+   font-size: 0.9em;
+   padding-top: 8px
+  }
+  .fas {
+   font-size: 0.8em;
+  }
+
+  /*
 .col- (extra small devices - screen width less than 576px)
 .col-sm- (small devices - screen width equal to or greater than 576px)
 .col-md- (medium devices - screen width equal to or greater than 768px)
