@@ -18,6 +18,8 @@
 
  /* navbar */
 
+ .navbar li {}
+
  .navbar a {
   font-size: 1em;
   color: #f99e1a;
@@ -93,15 +95,20 @@
   position: absolute;
   left: 0
  }
-
+ 
+ .fas {
+  font-size: 120%;
+ }
+ 
  .name {
   color: white;
   position: absolute;
   width: 100%;
-  top: 25%;
+  top: 30%;
   text-transform: uppercase;
   text-align: center;
-  font-size: 2em
+  font-size: 115%;
+  padding-top: 10px
  }
 
  .zoom {
@@ -174,8 +181,15 @@
  /* media queries */
 
  @media screen and (max-width: 992px) {
+  .name {
+   font-size: 1.1em;
+   padding-top: 15px
+  }
   .fab {
    margin: 15px
+  }
+  .fas {
+   font-size: 1.1em;
   }
  }
 
@@ -193,10 +207,11 @@
    width: 20%
   }
   .name {
-   font-size: 1.5em
+   font-size: 1.1em;
+   padding-top: 15px;
   }
   .fas {
-   font-size: 0.8em
+   font-size: 1em
   }
  }
 
@@ -209,6 +224,13 @@
   }
   .fab {
    font-size: 2em
+  }
+  .name {
+   font-size: 1.2em;
+   padding-top: 15px
+  }
+  .fas {
+   font-size: 1.2em;
   }
  }
 
