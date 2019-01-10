@@ -18,10 +18,12 @@
 
  /* navbar */
 
- .navbar li {}
+ .navbar li {
+  padding-right: 30px
+ }
 
  .navbar a {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #f99e1a;
   transition: transform .1s;
  }
@@ -180,37 +182,20 @@
 
  /* media queries */
 
- @media only screen and (min-width: 600px) {
+ @media only screen and (max-width: 768px) {
+  .nav-item {
+   font-size: 13px;
+  }
   .charstitle h1,
   h3 {
-   font-size: 25px
+   font-size: 25px;
   }
   .carbon {
-   font-size: 25px
-  }
-  .btn {
-   width: 30%;
-  }
-  .social {
-   font-size: 20px
+   font-size: 25px;
   }
  }
 
- @media only screen and (max-width: 600px) {
-  .charstitle h1,
-  h3 {
-   font-size: 25px
-  }
-  .carbon {
-   font-size: 25px
-  }
-  .btn {
-   width: 30%;
-  }
-  .social {
-   font-size: 20px
-  }
- }
+ @media only screen and (max-width: 768px) {}
 
 
  /*
