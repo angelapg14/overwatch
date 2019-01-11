@@ -18,10 +18,6 @@
 
  /* navbar */
 
- .navbar li {
-  padding-right: 30px
- }
-
  .navbar a {
   font-size: 1.2em;
   color: #f99e1a;
@@ -182,22 +178,81 @@
 
  /* media queries */
 
- @media only screen and (max-width: 768px) {
-  .nav-item {
-   font-size: 13px;
-  }
-  .charstitle h1,
+ @media only screen and (max-width: 320px) {
+  h1,
   h3 {
-   font-size: 25px;
+   font-size: 20px
   }
-  .carbon {
-   font-size: 25px;
+  .btn {
+   width: 40%
   }
  }
 
- @media only screen and (max-width: 600px) {
+ @media only screen and (min-width: 360px) {
+  h1,
+  h3 {
+   font-size: 20px
+  }
   .btn {
-   width: 25%
+   width: 40%
+  }
+  .fab {
+   font-size: 25px
+  }
+ }
+
+ @media only screen and (min-width: 375px) {
+  .btn {
+   width: 40%
+  }
+ }
+
+ @media only screen and (min-width: 411px) {
+  .btn {
+   width: 45%
+  }
+  .card {
+   width: 30%
+  }
+  .name {
+   font-size: 15px
+  }
+  .fas {
+   font-size: 15px
+  }
+ }
+
+ @media only screen and (min-width: 414px) {}
+
+ @media only screen and (min-width: 768px) {
+  h1,
+  h3 {
+   font-size: 40px
+  }
+  .btn {
+   width: 30%;
+   font-size: 30px
+  }
+  .name {
+   font-size: 25px
+  }
+  .fas {
+   font-size: 25px
+  }
+ }
+
+
+ @media only screen and (min-width: 1366px) {
+  h1,
+  h3 {
+   font-size: 50px
+  }
+  .btn {
+   width: 30%;
+   font-size: 40px
+  }
+  .card {
+   width: 15%
   }
  }
 
