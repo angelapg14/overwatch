@@ -178,84 +178,51 @@
 
  /* media queries */
 
- @media only screen and (max-width: 320px) {
+ @media screen and (max-width: 600px) {
   h1,
   h3 {
-   font-size: 20px
+   font-size: 25px
   }
   .btn {
-   width: 40%
+   width: 125px
   }
  }
 
- @media only screen and (min-width: 360px) {
-  h1,
-  h3 {
-   font-size: 20px
-  }
+ @media screen and (min-width: 601px) {
   .btn {
-   width: 40%
+   width: 150px
+  }
+  .card {
+   width: 120px
+  }
+  .name {
+   font-size: 15px
+  }
+  .fas {
+   font-size: 15px
+  }
+ }
+
+ @media screen and (min-width: 900px) {
+  .btn {
+   width: 115px
+  }
+  .card {
+   width: 150px
+  }
+ }
+
+ @media screen and (min-width: 1200px) {
+  .btn {
+   width: 200px;
+  }
+  .name {
+   font-size: 18px
   }
   .fab {
-   font-size: 25px
-  }
- }
-
- @media only screen and (min-width: 375px) {
-  .btn {
-   width: 40%
-  }
- }
-
- @media only screen and (min-width: 411px) {
-  .btn {
-   width: 45%
-  }
-  .card {
-   width: 30%
-  }
-  .name {
-   font-size: 15px
-  }
-  .fas {
-   font-size: 15px
-  }
- }
-
- @media only screen and (min-width: 414px) {}
-
- @media only screen and (min-width: 768px) {
-  h1,
-  h3 {
-   font-size: 40px
-  }
-  .btn {
-   width: 30%;
    font-size: 30px
   }
-  .name {
-   font-size: 25px
-  }
-  .fas {
-   font-size: 25px
-  }
  }
-
-
- @media only screen and (min-width: 1366px) {
-  h1,
-  h3 {
-   font-size: 50px
-  }
-  .btn {
-   width: 30%;
-   font-size: 40px
-  }
-  .card {
-   width: 15%
-  }
- }
-
 
  /*
 .col- (extra small devices - screen width less than 576px)
