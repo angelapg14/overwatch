@@ -178,22 +178,41 @@
 
  /* media queries */
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 320px) {
   h1,
   h3 {
    font-size: 25px
   }
   .btn {
-   width: 125px
+   width: 86px;
+  }
+  .social {
+   font-size: 25px
   }
  }
 
- @media screen and (min-width: 601px) {
+ @media screen and (min-width: 375px) {
+  h1,
+  h3 {
+   font-size: 25px
+  }
   .btn {
-   width: 150px
+   width: 104px;
+  }
+  .fab {
+   font-size: 27px
+  }
+  .social {
+   font-size: 25px
+  }
+ }
+
+ @media screen and (min-width: 414px) {
+  .btn {
+   width: 117px;
   }
   .card {
-   width: 120px
+   width: 128px;
   }
   .name {
    font-size: 15px
@@ -203,26 +222,6 @@
   }
  }
 
- @media screen and (min-width: 900px) {
-  .btn {
-   width: 115px
-  }
-  .card {
-   width: 150px
-  }
- }
-
- @media screen and (min-width: 1200px) {
-  .btn {
-   width: 200px;
-  }
-  .name {
-   font-size: 18px
-  }
-  .fab {
-   font-size: 30px
-  }
- }
 
  /*
 .col- (extra small devices - screen width less than 576px)
