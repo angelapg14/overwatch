@@ -178,48 +178,18 @@
 
  /* media queries */
 
- @media screen and (max-width: 320px) {
-  h1,
-  h3 {
-   font-size: 25px
-  }
-  .btn {
-   width: 86px;
-  }
-  .social {
-   font-size: 25px
-  }
+ [class*="col-"] {
+  width: 100%;
  }
 
- @media screen and (min-width: 375px) {
+ @media only screen and (max-width: 600px) {
   h1,
   h3 {
-   font-size: 25px
+   font-size: 25px;
   }
-  .btn {
-   width: 104px;
-  }
-  .fab {
-   font-size: 27px
-  }
-  .social {
-   font-size: 25px
-  }
- }
-
- @media screen and (min-width: 414px) {
-  .btn {
-   width: 117px;
-  }
-  .card {
-   width: 128px;
-  }
-  .name {
-   font-size: 15px
-  }
-  .fas {
-   font-size: 15px
-  }
+.btn {
+ width: 30%
+}
  }
 
 
