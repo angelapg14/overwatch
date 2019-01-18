@@ -42,10 +42,6 @@
 
  /* characters */
 
- .btn {
-  width: 15%
- }
-
  .carbon {
   color: #f99e1a;
   text-align: center;
@@ -70,6 +66,10 @@
  .titles {
   color: #218ffe;
   font-weight: bold;
+ }
+
+ .btn {
+  width: 10%
  }
 
  .card {
@@ -178,45 +178,79 @@
 
  /* media queries */
 
- [class*="col-"] {
-  width: 100%;
- }
-
  /* Extra small devices (phones, 600px and down) */
 
  @media only screen and (max-width: 600px) {
-  h1,h3 {
+  h1,
+  h3 {
    font-size: 25px
   }
   .btn {
-   width: 29%
+   width: 100%;
   }
  }
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
 
  @media only screen and (min-width: 600px) {
-  ...
+  .btn {
+   width: 17%;
+  }
+  .card {
+   width: 17%;
+  }
+  .name {
+   font-size: 11px
+  }
+  .fas {
+   font-size: 11px
+  }
  }
 
  /* Medium devices (landscape tablets, 768px and up) */
 
  @media only screen and (min-width: 768px) {
-  ...
+  .btn {
+   width: 18%;
+  }
+  .card {
+   width: 18%;
+  }
+  .name {
+   font-size: 16px
+  }
+  .fas {
+   font-size: 16px
+  }
  }
 
  /* Large devices (laptops/desktops, 992px and up) */
 
  @media only screen and (min-width: 992px) {
-  ...
+  .card {
+   width: 15%;
+  }
+  .name {
+   font-size: 18px
+  }
+  .fas {
+   font-size: 18px
+  }
  }
 
  /* Extra large devices (large laptops and desktops, 1200px and up) */
 
  @media only screen and (min-width: 1200px) {
-  ...
+  .card {
+   width: 13%;
+  }
+  .name {
+   font-size: 18px
+  }
+  .fas {
+   font-size: 18px
+  }
  }
-
 
  /*
 .col- (extra small devices - screen width less than 576px)
